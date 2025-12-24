@@ -7,7 +7,7 @@ import Services from './components/Services';
 import Reviews from './components/Reviews';
 import FormOrder from './components/FormOrder';
 import Contacts from './components/Contacts';
-import Footer from './components/Footer';
+import FormOrder from './components/FormOrder';
 import './App.css';
 
 function App() {
@@ -15,11 +15,19 @@ function App() {
 
   const scrollToSection = (sectionId) => {
     const el = document.getElementById(sectionId);
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
-      setActiveSection(sectionId);
-    }
-  };
+    if (!el) return;
+
+    const headerOffset = 120; 
+    const elementPosition = el.getBoundingClientRect().top + window.pageYOffset;
+    const offsetPosition = elementPosition - headerOffset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    });
+
+    setActiveSection(sectionId);
+};
 
   return (
     <div className="App">
