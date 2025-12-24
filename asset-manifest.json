@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/greenural/static/css/main.0a0c72a8.css",
-    "main.js": "/greenural/static/js/main.924c3041.js",
+    "main.css": "/greenural/static/css/main.00dd1aac.css",
+    "main.js": "/greenural/static/js/main.8d3a7757.js",
     "static/js/453.9a8f5913.chunk.js": "/greenural/static/js/453.9a8f5913.chunk.js",
     "index.html": "/greenural/index.html",
-    "main.0a0c72a8.css.map": "/greenural/static/css/main.0a0c72a8.css.map",
-    "main.924c3041.js.map": "/greenural/static/js/main.924c3041.js.map",
+    "main.00dd1aac.css.map": "/greenural/static/css/main.00dd1aac.css.map",
+    "main.8d3a7757.js.map": "/greenural/static/js/main.8d3a7757.js.map",
     "453.9a8f5913.chunk.js.map": "/greenural/static/js/453.9a8f5913.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a0c72a8.css",
-    "static/js/main.924c3041.js"
+    "static/css/main.00dd1aac.css",
+    "static/js/main.8d3a7757.js"
   ]
 }
