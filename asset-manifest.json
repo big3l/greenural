@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/greenural/static/css/main.0a0c72a8.css",
+    "main.js": "/greenural/static/js/main.924c3041.js",
+    "static/js/453.9a8f5913.chunk.js": "/greenural/static/js/453.9a8f5913.chunk.js",
+    "index.html": "/greenural/index.html",
+    "main.0a0c72a8.css.map": "/greenural/static/css/main.0a0c72a8.css.map",
+    "main.924c3041.js.map": "/greenural/static/js/main.924c3041.js.map",
+    "453.9a8f5913.chunk.js.map": "/greenural/static/js/453.9a8f5913.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a0c72a8.css",
+    "static/js/main.924c3041.js"
+  ]
+}
